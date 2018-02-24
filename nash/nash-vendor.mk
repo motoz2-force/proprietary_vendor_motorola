@@ -91,7 +91,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/nash/proprietary/vendor/lib/libjni_truescanner_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_truescanner_v2.so \
     vendor/motorola/nash/proprietary/vendor/lib/libjni_ubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_ubifocus.so \
     vendor/motorola/nash/proprietary/lib/libmot_lux_standardization.so:system/lib/libmot_lux_standardization.so \
-    vendor/motorola/nash/proprietary/lib/libqdMetaData.system.so:system/lib/libqdMetaData.system.so \
     vendor/motorola/nash/proprietary/lib/libqti-perfd-client_system.so:system/lib/libqti-perfd-client_system.so \
     vendor/motorola/nash/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/motorola/nash/proprietary/lib/librcc.so:system/lib/librcc.so \
@@ -107,6 +106,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/nash/proprietary/lib/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/motorola/nash/proprietary/lib/vendor.qti.hardware.qteeconnector@1.0.so:system/lib/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/motorola/nash/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
+    vendor/motorola/nash/proprietary/lib64/com.motorola.mod@1.0.so:system/lib64/com.motorola.mod@1.0.so \
     vendor/motorola/nash/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/motorola/nash/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
     vendor/motorola/nash/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
@@ -137,7 +137,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/nash/proprietary/vendor/lib64/libjni_truescanner_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_truescanner_v2.so \
     vendor/motorola/nash/proprietary/vendor/lib64/libjni_ubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_ubifocus.so \
     vendor/motorola/nash/proprietary/lib64/libmodhw.so:system/lib64/libmodhw.so \
-    vendor/motorola/nash/proprietary/lib64/libqdMetaData.system.so:system/lib64/libqdMetaData.system.so \
     vendor/motorola/nash/proprietary/lib64/libqti-perfd-client_system.so:system/lib64/libqti-perfd-client_system.so \
     vendor/motorola/nash/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
     vendor/motorola/nash/proprietary/lib64/librcc.so:system/lib64/librcc.so \
@@ -961,6 +960,7 @@ PRODUCT_PACKAGES += \
     datastatusnotification \
     ims \
     radioconfig \
+    ModFmwkProxyService \
     ModService \
     ProjectorApp \
     qcrilmsgtunnel \
