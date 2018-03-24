@@ -94,6 +94,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/nash/proprietary/vendor/lib/libsd_sdk_display.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsd_sdk_display.so \
     vendor/motorola/nash/proprietary/vendor/lib/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-disp-apis.so \
     vendor/motorola/nash/proprietary/vendor/lib/libseestraight.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseestraight.so \
+    vendor/motorola/nash/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/motorola/nash/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
     vendor/motorola/nash/proprietary/vendor/lib/libtruescanner.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtruescanner.so \
     vendor/motorola/nash/proprietary/lib/vendor.display.color@1.0.so:system/lib/vendor.display.color@1.0.so \
@@ -135,6 +136,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/nash/proprietary/lib64/librcc.so:system/lib64/librcc.so \
     vendor/motorola/nash/proprietary/vendor/lib64/libsd_sdk_display.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsd_sdk_display.so \
     vendor/motorola/nash/proprietary/vendor/lib64/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-disp-apis.so \
+    vendor/motorola/nash/proprietary/lib64/libtinyalsa.so:system/lib64/libtinyalsa.so \
     vendor/motorola/nash/proprietary/vendor/lib64/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrueportrait.so \
     vendor/motorola/nash/proprietary/lib64/vendor.display.color@1.0.so:system/lib64/vendor.display.color@1.0.so \
     vendor/motorola/nash/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
@@ -242,6 +244,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/nash/proprietary/vendor/lib/egl/libQTapGLES.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libQTapGLES.so \
     vendor/motorola/nash/proprietary/vendor/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_adreno.so \
     vendor/motorola/nash/proprietary/vendor/lib/hw/activity_recognition.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/activity_recognition.msm8998.so \
+    vendor/motorola/nash/proprietary/vendor/lib/hw/audio.primary.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.msm8998.so \
     vendor/motorola/nash/proprietary/vendor/lib/hw/camera.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8998.so \
     vendor/motorola/nash/proprietary/vendor/lib/hw/gatekeeper.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.msm8998.so \
     vendor/motorola/nash/proprietary/vendor/lib/hw/keystore.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.msm8998.so \
